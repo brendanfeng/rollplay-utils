@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                          // Reasonably modern JS output
+    "module": "ESNext",                          // ES modules (great for bundlers & ESM users)
+    "lib": ["ES2020"],                           // Enable modern JS APIs like Array.from, Promise, etc.
+    "declaration": true,                         // Generates .d.ts files for consumers
+    "outDir": "dist",                            // Output directory for compiled files
+    "strict": true,                              // Enable all strict type-checking options
+    "esModuleInterop": true,                     // Makes importing JS libraries easier
+    "skipLibCheck": true,                        // Speeds up build
+    "forceConsistentCasingInFileNames": true,    // Avoids case mismatches
+    "moduleResolution": "node",                  // Required for resolving node-style imports
+    "rootDir": "src"                             // Where your source TypeScript lives
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "rollplay-utils",
+  "version": "0.1.0",
+  "description": "A utility toolkit for board and card game developers – coin flips, dice rolls, turn logic, card dealing, and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "boardgames",
+    "cardgames",
+    "dice",
+    "game-utilities",
+    "typescript",
+    "deck",
+    "rng",
+    "tabletop"
+  ],
+  "author": "Brendan F.",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
